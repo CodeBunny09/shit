@@ -37,6 +37,17 @@ ol, ul {
 	list-style: none;
 }
 
+.list-inline {
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+  }
+  .list-inline > li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+  }
+
 blockquote, q {
 	quotes: none;
 }
@@ -1140,9 +1151,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
